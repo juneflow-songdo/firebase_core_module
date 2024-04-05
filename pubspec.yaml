@@ -1,0 +1,25 @@
+name: firebase_core_module
+description: "Description here"
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/juneflow
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  firebase_core: ^2.28.0 #@add
+  flutter:
+    sdk: flutter
+  go_router: ^13.2.2
+  june_flow_util: ^0.8.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/module/firebase_core_module/
+  uses-material-design: true
