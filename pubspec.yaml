@@ -1,19 +1,19 @@
 name: firebase_core_module
-description: "Description here"
+description: "help apply firebase_core to project"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneflow-songdo/firebase_core_module
 
-version: 0.0.1+1
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
 
 dependencies:
-  firebase_core: ^2.28.0 #@add
+  firebase_core: #@add
   flutter:
     sdk: flutter
-  go_router: ^13.2.2
-  june_flow_util: ^0.8.19
+  go_router:
+  june_flow_util:
 
 dev_dependencies:
   flutter_test:
